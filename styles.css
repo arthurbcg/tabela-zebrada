@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 500px;
+    font-size: 18px;
+    box-shadow: 0 0 30px blue;
+    border: 2px solid blue;
+    margin-left: 100px;
+}
+
+thead {
+    background-color: #F1DF95;
+    color: black;
+}
+
+tbody tr {
+    cursor: pointer;
+    height: 20px;
+}
+
+tbody tr:hover, tbody tr:nth-child(even):hover {
+    background-color: blue;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #F1DF95;
+}
+
+.sigla{
+    text-align: end;
+}
